@@ -13,6 +13,14 @@ import SimpleState from "./Hooks/State/SimpleState";
 import SimpleState2 from "./Hooks/State/SimpleState";
 import FormState from "./Hooks/State/FormState";
 import SimpleEffect from "./Hooks/Effect/SimpleEffect";
+import ManualRoute from "./Routing/ManualRoutes";
+
+import Dashboard from "./Routing/ReactRouter/DasBoard";
+
+import Login from "./Routing/ReactRouter/Login";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import "./css.css"; 
 
@@ -24,6 +32,8 @@ createRoot(document.getElementById("root")).render(
     {/* <SimpleState/> */}
     {/* <SimpleState2/>
     <FormState/> */}
-    <SimpleEffect/>
+    {/* <SimpleEffect/> */}
+     {/* <ManualRoute /> */}
+     <Dashboard/>
   </StrictMode>
 );
