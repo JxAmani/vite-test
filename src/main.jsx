@@ -20,6 +20,7 @@ import Dashboard from "./Routing/ReactRouter/DasBoard";
 import Login from "./Routing/ReactRouter/Login";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactRouter from "./Routing/ReactRouter";
 
 
 import "./css.css"; 
@@ -33,7 +34,8 @@ createRoot(document.getElementById("root")).render(
     {/* <SimpleState2/>
     <FormState/> */}
     {/* <SimpleEffect/> */}
-     {/* <ManualRoute /> */}
-     <Dashboard/>
+    {/* <ManualRoute /> */}
+    {/* <Dashboard/> */}
+      <ReactRouter />
   </StrictMode>
 );
